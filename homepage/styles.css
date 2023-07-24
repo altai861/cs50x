@@ -1,0 +1,13 @@
+#Profile {
+    border-radius: 40%;
+    margin-top: 25px;
+}
+
+#profile-name {
+    margin-left: 25px;
+}
+
+#top-profile {
+    background-color: #ffebcd;
+    margin-top: 25px;
+}

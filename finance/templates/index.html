@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <div>
+        You have this amount of cash: {{ cash }}
+    </div>
+    <div>
+        <p class="text-primary">Your portfolio:</p>
+        <table class="ml-6">
+            <tr>
+                <th>Stocks</th>
+                <th>Number of shares</th>
+            </tr>
+            {% for stock in portfolio %}
+                <tr>
+                    <td>{{ stock["stocks"] }}</td>
+                    <td>{{ stock["shares"] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <p>Your total asset is:{{ total }}</p>
+    </div>
+
+{% endblock %}

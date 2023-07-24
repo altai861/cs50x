@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <table>
+        <tr>
+            <th>Stock symbol</th>
+            <th>Quantity of the stock</th>
+            <th>The action</th>
+        </tr>
+        {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction["stock_symbol"] }}</td>
+                <td>{{ transaction["number_shares"] }}</td>
+                <td>{{ transaction["action"] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

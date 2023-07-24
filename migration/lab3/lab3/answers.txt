@@ -1,0 +1,13 @@
+sort1 uses: bubble sort
+
+How do you know?: because the running time of sorted5000 is lower than the time of reversed5000
+sorted: 0.012
+reversed: 0.055
+
+sort2 uses: merge sort
+
+How do you know?: because the running time of both reversed and sorted are equal . and the runnning time is lower than teh running time of sort3 which is selection sort
+
+sort3 uses: selection sort
+
+How do you know?: both time is equal and greater than sort2 which is merge sort

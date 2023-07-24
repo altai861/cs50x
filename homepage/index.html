@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- CSS only -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+        <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <title>Welcome to Altai's world</title>
+        <script>
+          function random_photo() {
+            var my_photos = new Array ();
+            my_photos[1] = "pictures/1.jpg";
+            my_photos[2] = "pictures/2.jpg";
+            my_photos[3] = "pictures/3.jpg";
+            my_photos[4] = "pictures/4.jpg";
+            my_photos[5] = "pictures/5.jpg";
+            my_photos[6] = "pictures/6.jpg";
+            my_photos[7] = "pictures/7.jpg";
+            my_photos[8] = "pictures/8.jpg";
+            var rnd = Math.floor( Math.random() * my_photos.length );
+            if( rnd == 0 ) {
+              rnd = 1;
+            }
+            document.getElementById("random_photo").src = my_photos[rnd];
+          }
+      </script>
+    </head>
+    <body>
+        <div class="container" id="top-profile">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <img src="pictures/8.jpg" id="Profile" alt='Avatar' width="150" height="150">
+                    <h1 id="profile-name" class="lead">This is me</h1>
+                    <!--
+                      Here in this div there is left a big space where only my picture resides. So here I will make a mini game.
+                    -->
+                </div>
+                <div class="col-lg-9 col-sm-6 my-5">
+                    <nav class="navbar navbar-expand-lg bg-light rounded fixed-top ">
+                        <div class="container-fluid ">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle bg-warning rounded" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  My passions
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="math_and_programming.html">Programming and Math</a></li>
+                                  <li><a class="dropdown-item" href="art.html">Art</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active bg-info rounded mx-1" aria-current="page" href="me_at_school.html">Me at School</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active bg-danger rounded" aria-current="page" href="my_blog.html">My Blog</a>
+                              </li>
+                            </ul>
+                            <span class="navbar-text">
+                              <em class="lead">"Life is a bore, if you don't challenge yourself"</em>
+                            </span>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-light mt-5 ml-3">
+          <div class="row">
+            <div class="col-lg-5">
+              <span class="mt-10"></span>
+              <card><p class="text-center fs-1 lead mt-20">My name is Altai. I am 18 this year. I have just graduated from high school.</p>
+                <img src="pictures/3.jpg" class="img-fluid rounded-circle">
+              </card>
+              <p class="text-center fst-italic mt-5">
+                Never ever make a decision out of haste. Think twice
+                Save money. Money is way too important in this period for me and my family.
+                Don’t make fear interfere with your goals and disciplines.
+                Fear is temporary. Bear it. Endure it. It is not impossible.
+                DO the thing you enjoy when you feel scared and lonely.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center">
+                  <h1><a href="#"><i class="bi bi-instagram"></i></a></h1><p class="text-fluid">altaii_g</p>
+                </div>
+                <div class="col-6 text-center">
+                  <h1><a href="#"><i class="bi bi-facebook"></i></a></h1><p class="text-fluid">Altai Gantumur</p>
+                </div>
+
+              </div>
+              <div class="text-center">
+                You can also contact me with mail: <a href="#">altaizandanbileg@gmail.com</a>
+              </div>
+            </div>
+            <div class="col-lg-7 text-center">
+              <div class="container ">
+                <p class="text-center fst-italic m-5">
+                  ""Maybe I can start my work(planning the things I will do that day) at 6am every morning till 7o’clock.
+                  And then I can have a good breakfast. And then I can get myself indulged in a more relaxing activities such
+                  as reading, drawing, and writing or even meditation on myself until 10o’clock. Then real work begins until 1pm
+                  with 5 min break every 40 minutes of work. Then I have to prepare my lunch. I presume that I would finish my lunch
+                  around 2pm. Then I want develop my physicality after that. This would take ,approximately, around 2 hours. I will work
+                  on my physique and health.  After I get to home around 4 pm, this is my leisure time that is between 4 pm until 5 pm.
+                  Work from 5 to 6. Then I can do anything I want until 9 30. Then I will prepare to sleep. Then I will sleep. I think
+                  that this schedule is a little bit tiring.""
+                </p>
+                <button id="random_photos_by_me_button" class="text-dark ml-5" onclick="random_photo()">Random photos by me</button><p class="fw-lighter">Just wait a few moment after clicking</p>
+                <img src="pictures/1.jpg" id="random_photo" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="row">
+            <div class="text-center my-5">
+              <p>
+                Copyright &#169 2022 Altai Gantumur
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
